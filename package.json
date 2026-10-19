@@ -1,7 +1,7 @@
 {
   "name": "@istarry/dsh-browser",
   "description": "Give the agent a real headed browser: browser_open and browser_interact tools over a stateful Chromium installed under the harness home",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "icon": "./icon.svg",
   "type": "module",
   "main": "lib/index.js",
@@ -31,8 +31,8 @@
     }
   },
   "dependencies": {
-    "@istarry/dsh-browser-core": "^0.1.0",
-    "@istarry/dsh-client-ui-settings-browser": "^0.1.0"
+    "@istarry/dsh-browser-core": "^0.1.1",
+    "@istarry/dsh-client-ui-settings-browser": "^0.1.1"
   },
   "publishConfig": {
     "access": "public"

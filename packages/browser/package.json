@@ -1,7 +1,7 @@
 {
   "name": "@istarry/dsh-browser-core",
   "description": "Built-in browser plugin: a Playwright-derived Chromium installed under the harness home, stateful browser_open / browser_interact agent tools, and install/detect remotes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publishConfig": {
     "access": "public"
   },
@@ -42,9 +42,9 @@
   "dependencies": {
     "playwright": "^1.49.0",
     "zod": "^4.4.3",
-    "@deepseek-ai/dsh-home-paths": "^0.1.7-rc.2 || ^0.2.0-rc.2 || ^0.2.1-rc.2",
-    "@deepseek-ai/dsh-tools": "^0.1.7-rc.2 || ^0.2.0-rc.2 || ^0.2.1-rc.2",
-    "@deepseek-ai/dsh-typert-protocol": "^0.1.7-rc.2 || ^0.2.0-rc.2 || ^0.2.1-rc.2",
+    "@deepseek-ai/dsh-home-paths": "0.2.0-rc.2",
+    "@deepseek-ai/dsh-tools": "0.2.0-rc.2",
+    "@deepseek-ai/dsh-typert-protocol": "0.2.0-rc.2",
     "@deepseek-ai/schemastery": "^3.18.1"
   },
   "devDependencies": {
