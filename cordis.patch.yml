@@ -1,0 +1,11 @@
+# The built-in browser bundle: two rows. The session-side package owns the
+# Chromium runtime, the agent tools, and the install/detect remotes; the
+# settings client package renders the browser settings page (the agent-use
+# switch, the request headers, and the install status).
+- insert:
+    - id: browser
+      name: '@istarry/dsh-browser-core'
+      config:
+        agentUseBrowser: true
+    - id: ui-settings-browser
+      name: '@istarry/dsh-client-ui-settings-browser'

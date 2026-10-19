@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Built-in browser",
+    "description": "Give the agent a real headed browser: browser_open navigates and reads rendered pages, browser_interact clicks, types, and scrolls; the Chromium installs under the harness home with a one-click setup"
+  }
+}

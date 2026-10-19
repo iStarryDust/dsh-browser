@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "内置浏览器",
+    "description": "给 Agent 一个真实的有头浏览器：browser_open 打开网页并读取渲染内容，browser_interact 点击、输入、滚动；Chromium 安装在 Harness 主目录下，首次使用一键安装"
+  }
+}

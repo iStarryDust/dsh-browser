@@ -1,0 +1,46 @@
+/** `settings.browser` namespace dictionaries: the built-in browser settings page. */
+/** Simplified Chinese dictionary (the key-set source of truth). */
+export const zh = {
+    'nav': '内置浏览器',
+    'intro': '给智能体一个真实的有头浏览器：browser_open 打开网页并读取渲染内容，browser_interact 点击、输入、滚动。Chromium 安装在本 Harness 主目录的 browser 文件夹下。',
+    'switchesGroup': '开关',
+    'agentUseBrowser.title': '启用内置浏览器',
+    'agentUseBrowser.description': '关闭后 browser_open 与 browser_interact 调用会返回未启用提示',
+    'headersGroup': '请求头',
+    'headersEditor.hint': '导航时附加的额外请求头，JSON 对象格式；留空或非法 JSON 时使用浏览器自身请求头',
+    'headersEditor.save': '保存请求头',
+    'headersEditor.restore': '恢复默认',
+    'headersEditor.saving': '保存中…',
+    'headersEditor.saved': '已保存',
+    'headersEditor.saveFailed': '保存失败',
+    'installGroup': '安装状态',
+    'install.checking': '正在检查 Chromium 安装状态…',
+    'install.installed': 'Chromium 已安装',
+    'install.notInstalled': 'Chromium 未安装：首次调用 browser_open 时会自动在后台下载安装，安装完成前调用会返回未安装提示',
+    'install.probeFailed': '安装状态检查失败',
+    'writeFailed': '保存失败，请重试',
+    'unavailable': '配置暂不可用，请稍后刷新',
+};
+/** English dictionary, checked complete against the zh key set. */
+export const en = {
+    'nav': 'Built-in browser',
+    'intro': 'Give the agent a real headed browser: browser_open navigates and reads rendered pages, browser_interact clicks, types, and scrolls. Chromium installs under the harness home\'s browser folder.',
+    'switchesGroup': 'Switches',
+    'agentUseBrowser.title': 'Enable the built-in browser',
+    'agentUseBrowser.description': 'When off, browser_open and browser_interact calls return a not-enabled notice',
+    'headersGroup': 'Request headers',
+    'headersEditor.hint': 'Extra request headers applied on navigation, as a JSON object; empty or invalid JSON falls back to the browser\'s own headers',
+    'headersEditor.save': 'Save headers',
+    'headersEditor.restore': 'Restore defaults',
+    'headersEditor.saving': 'Saving…',
+    'headersEditor.saved': 'Saved',
+    'headersEditor.saveFailed': 'Save failed',
+    'installGroup': 'Install status',
+    'install.checking': 'Checking the Chromium install state…',
+    'install.installed': 'Chromium is installed',
+    'install.notInstalled': 'Chromium is not installed: the first browser_open call downloads it in the background; calls before that return a not-installed notice',
+    'install.probeFailed': 'Failed to check the install state',
+    'writeFailed': 'Save failed, please retry',
+    'unavailable': 'Configuration is temporarily unavailable; refresh later',
+};
+//# sourceMappingURL=locales.js.map
