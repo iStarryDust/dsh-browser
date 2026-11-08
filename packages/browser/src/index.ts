@@ -29,9 +29,11 @@ export {
   Config, type BrowserConfig,
 } from './settings.ts'
 export type { BrowserSettings } from './settings.ts'
+export type {
+  BrowserActAction, BrowserActArgs, BrowserPageResult, BrowserRuntime,
+} from './browser.ts'
 export {
   browserRoot, parseHeaders, createBrowserRuntime,
-  type BrowserActAction, BrowserActArgs, BrowserPageResult, BrowserRuntime,
 } from './browser.ts'
 export { applyBrowserTools } from './tool.ts'
 
