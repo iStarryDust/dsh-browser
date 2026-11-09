@@ -1,7 +1,7 @@
 {
   "name": "@istarry/dsh-browser",
   "description": "Give the agent a real headed browser: browser_open and browser_interact tools over a stateful Chromium installed under the harness home",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "icon": "./icon.svg",
   "type": "module",
   "main": "lib/index.js",
@@ -42,6 +42,6 @@
     "url": "git+https://github.com/iStarryDust/dsh-browser.git"
   },
   "engines": {
-    "dsh": ">=0.2.0-0 <0.3.0-0"
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
   }
 }
